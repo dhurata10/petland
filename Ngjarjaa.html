@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Ngjarja</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#FFCC99" onload="FP_preloadImgs(/*url*/'button3F.gif',/*url*/'button40.gif')">
+
+<div style="position: absolute; width: 566px; height: 100px; z-index: 1; left: 315px; top: 28px" id="layer1">
+	<div style="position: absolute; width: 100px; height: 100px; z-index: 1; left: -309px; top: -25px" id="layer6">
+		<a href="Ngjarjet.html">
+		<img border="0" id="img1" src="button3E.gif" height="25" width="125" alt="Kthehu" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3F.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3E.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button40.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3F.gif')" fp-style="fp-btn: Metal Capsule 8; fp-font-size: 11; fp-transparent: 1" fp-title="Kthehu"></a></div>
+	<font size="5">Këtu janë të paraqitur 
+	disa nga macet e fundit që i kemi shpëtuar:</font></div>
+<div style="position: absolute; width: 625px; height: 100px; z-index: 2; left: 81px; top: 221px" id="layer2">
+	<img border="0" src="images/leo-rescued-cats-before-and-after-photos.jpg" width="625" height="376"></div>
+<div style="position: absolute; width: 278px; height: 100px; z-index: 3; left: 799px; top: 223px" id="layer3">
+	<font size="5">Ky është Ester. Atë e kemi gjetur në rrugë dhe nga 
+	papastërtia e madhe kishte filluar të infektohej në sy. Fotoja e parë është 
+	bërë në janar 2016 ndërsa fotoja e dytë është bërë në Mars 2017. Ai tash 
+	është shumë mirë dhe është gati për tu adoptuar</font></div>
+<div style="position: absolute; width: 631px; height: 100px; z-index: 4; left: 73px; top: 698px" id="layer4">
+	<img border="0" src="images/rescue-cat-abandoned-before-after-24__700.jpg" width="632" height="396"></div>
+<div style="position: absolute; width: 246px; height: 100px; z-index: 5; left: 811px; top: 701px" id="layer5">
+	<font size="5">Kjo është Thamper. Ajo është keqtrajtuar shumë dhe pastaj 
+	është lënë në kuti gati e ngordhuar. Ne e kemi gjetur atë në Shkurt 2017 dhe 
+	sot ajo ndihet shumë mirë por i duhet edhe pak forcë që të mund të bëhet 
+	gati për një famijlje të ngrohtë</font></div>
+
+</body>
+
+</html>

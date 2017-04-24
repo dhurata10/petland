@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Rreth nesh</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button30.gif',/*url*/'button31.gif')" bgcolor="#FFCC99">
+
+<div style="position: absolute; width: 814px; height: 100px; z-index: 1; left: 276px; top: 63px" id="layer1">
+	<img border="0" src="images/staff-employment-600x315.jpg" width="824" height="367"></div>
+<p><a href="Pet%20Land.htm">
+<img border="0" id="img1" src="button32.gif" height="26" width="130" alt="Kthehu në fillim" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button30.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button32.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button31.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button30.gif')" fp-style="fp-btn: Metal Capsule 8; fp-font-size: 11; fp-transparent: 1" fp-title="Kthehu në fillim"></a></p>
+<div style="position: absolute; width: 1184px; height: 100px; z-index: 2; left: 100px; top: 526px" id="layer2">
+	<font size="6" face="Arial">Stafi</font><font size="6" face="Arial"> ynë në 
+	fillim përbëhej nga 4 persona të cilët ishim ideator për fillimin e kësaj 
+	iniciative. Tani jemi rreth 10 persona të cilët punojmë me shumë perkushtim 
+	dhe qdo ditë e më shumë jemi duke u shtuar. Poashtu edhe objekti në të cilin 
+	kemi filluar ka qenë shumë i vogël, por tani falë ndihmes se shumë 
+	donatorëve kemi një objekt të mjaftueshëm për të gjithë. Qdo ditë e më shumë 
+	vullnetarë janë duke na u bashkuar dhe shpresojmë qe edhe më shumë do të 
+	jemi frymëzim për të gjithë në gjithë vendin. Jeta e shumë kafshëve varet 
+	nga ju, kështu që mos ngurroni në qofte se dëshironi të na ndihmoni.</font></div>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ngjarja</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#FFCC99" onload="FP_preloadImgs(/*url*/'button42.gif',/*url*/'button43.gif')">
+
+<div style="position: absolute; width: 100px; height: 100px; z-index: 1; left:9px; top:103px" id="layer1">
+	<img border="0" src="images/efc995064c87142c245e9ce09f234db0.jpg" width="564" height="450"></div>
+<div style="position: absolute; width: 267px; height: 100px; z-index: 2; left: 691px; top: 102px" id="layer2">
+	<font size="5">Këta janë Odise dhe Odeta. Ata janë gjetur në rrugë në 
+	gjendje të keqe po që gjithmonë kanë qendruara afër njeri-tjetrit. Njejtë 
+	është edhe sot,ata qëndrojnë gjithmonë bashk pa u ndarë asnjëherë. Në qoftë 
+	se ata dergohen në shtëpi për adoptim, patjeter që do të dërgohen së bashku.</font></div>
+
+<p><a href="Ngjarja.html">
+<img border="0" id="img1" src="button41.gif" height="23" width="115" alt="Kthehu" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button42.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button41.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button43.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button42.gif')" fp-style="fp-btn: Metal Capsule 8; fp-font-size: 11; fp-transparent: 1" fp-title="Kthehu"></a></p>
+
+</body>
+
+</html>

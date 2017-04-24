@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Kontakti</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button45.gif',/*url*/'button46.gif')" bgcolor="#FFCC99">
+
+<div style="position: absolute; width: 1211px; height: 100px; z-index: 1; left: 35px; top: 68px" id="layer1">
+	<div style="position: absolute; width: 100px; height: 100px; z-index: 1; left: -6px; top: -64px" id="layer2">
+		<a href="index.html">
+		<img border="0" id="img1" src="button44.gif" height="25" width="125" alt="Kthehu në fillim" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button45.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button44.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button46.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button45.gif')" fp-style="fp-btn: Metal Capsule 8; fp-transparent: 1" fp-title="Kthehu në fillim"></a></div>
+	<p>
+	<img border="0" src="images/70424102-pet-wallpapers.jpg" width="1246" height="456"></div>
+<div style="position: absolute; width: 274px; height: 100px; z-index: 2; left: 35px; top: 538px" id="layer3">
+	<font size="6">Për</font><font size="6"> më shumë infromata ju mund të na 
+	kontaktoni </font></div>
+<div style="position: absolute; width: 246px; height: 100px; z-index: 3; left: 33px; top: 704px" id="layer4">
+	<font size="6">nr.tel: 049-333-454</font></div>
+<div style="position: absolute; width: 247px; height: 100px; z-index: 4; left: 32px; top: 821px" id="layer5">
+	<font size="6">Adresa:&nbsp; Nëna Tereza 50000</font></div>
+<div style="position: absolute; width: 250px; height: 100px; z-index: 5; left: 30px; top: 936px" id="layer6">
+	<font size="6">Email: petland@gmail.com</font> </div>
+<div style="position: absolute; width: 540px; height: 493px; z-index: 6; left: 609px; top: 581px" id="layer7">
+	<img border="0" src="images/Untitled.png" width="549" height="494"></div>
+
+</body>
+
+</html>
